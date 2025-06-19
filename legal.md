@@ -11,31 +11,14 @@ permalink: /legal/
 
 ---
 
-<div class="legal-card">
-  <h2>1. Publisher Information <span class="legal-imprint-sub">(Imprint)</span></h2>
-  <div class="legal-table-scroll">
-    <table class="legal-table">
-      <tbody>
-        <tr>
-          <th>Responsible entity (Controller)</th>
-          <td>Simon Rambow</td>
-        </tr>
-        <tr>
-          <th>Address</th>
-          <td>Josef-Kohtes-Straße 34, 40670 Meerbusch, Germany</td>
-        </tr>
-        <tr>
-          <th>E-mail</th>
-          <td>ClipTrigger.ow@gmail.com</td>
-        </tr>
-        <tr>
-          <th>VAT-ID / Trade Register</th>
-          <td><em>Not available at this time</em></td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</div>
+## 1. Publisher Information (Imprint)
+
+|  |  |
+|---|---|
+| **Responsible entity (Controller)** | Simon Rambow |
+| **Address** | Josef-Kohtes-Straße 34, 40670 Meerbusch, Germany |
+| **E-mail** | ClipTrigger.ow@gmail.com |
+| **VAT-ID / Trade Register** | _Not available at this time_ |
 
 ---
 
@@ -244,6 +227,23 @@ Questions? Please email **ClipTrigger.ow@gmail.com**.
     <tr>
       <td>13 Jun 2025</td>
       <td>1.2.0</td>
+      <td>Advertising &amp; Premium Service section; updated data tables</td>
+    </tr>
+    <tr>
+      <td>13 Jun 2025</td>
+      <td>1.1.0</td>
+      <td>Imprint completed; user-generated-content policy</td>
+    </tr>
+    <tr>
+      <td>13 Jun 2025</td>
+      <td>1.0.0</td>
+      <td>Initial publication</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</table>
+</div>
       <td>Advertising &amp; Premium Service section; updated data tables</td>
     </tr>
     <tr>
