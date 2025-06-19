@@ -14,22 +14,22 @@ permalink: /legal/
 <div class="legal-card">
   <h2>1. Publisher Information <span class="legal-imprint-sub">(Imprint)</span></h2>
   <div class="legal-table-scroll">
-    <table class="legal-table legal-imprint-table">
+    <table class="legal-table">
       <tbody>
         <tr>
-          <th>Responsible entity (Controller):</th>
+          <th>Responsible entity (Controller)</th>
           <td>Simon Rambow</td>
         </tr>
         <tr>
-          <th>Address:</th>
+          <th>Address</th>
           <td>Josef-Kohtes-Straße 34, 40670 Meerbusch, Germany</td>
         </tr>
         <tr>
-          <th>E-mail:</th>
+          <th>E-mail</th>
           <td>ClipTrigger.ow@gmail.com</td>
         </tr>
         <tr>
-          <th>VAT-ID / Trade Register:</th>
+          <th>VAT-ID / Trade Register</th>
           <td><em>Not available at this time</em></td>
         </tr>
       </tbody>
