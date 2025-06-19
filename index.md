@@ -5,20 +5,20 @@ title: ClipTrigger
 
 # Level‑Up Your Rocket&nbsp;League Hype
 
-ClipTrigger plays your favourite reaction clips the _moment_ something epic happens in‑game.  
-From local MP4s to YouTube memes – fully customisable, ad‑supported (or ad‑free premium coming soon).
+ClipTrigger spielt deine Lieblings-Reaction-Clips _sofort_, wenn im Spiel etwas Episches passiert.  
+Von lokalen MP4s bis YouTube-Memes – voll anpassbar, werbefinanziert (oder bald werbefrei mit Premium).
 
 [Get it on Overwolf](https://www.overwolf.com/app/ClipTrigger){: .cta}
 {<br>}
 
-## 🎞️ Local & YouTube Clips
-Drag‑n‑drop MP4s or paste any public YouTube/GIPHY link – ClipTrigger handles it all.
+## 🎞️ Lokale & YouTube-Clips
+• Ziehe MP4s ins Overlay oder füge öffentliche YouTube/GIPHY-Links ein – ClipTrigger spielt alles ab.
 
-## ⚽ Real‑Time Game Events
-Goals, MVP, overtime… Powered by Overwolf’s Game Events API for zero‑lag triggers.
+## ⚽ Echtzeit-Game-Events
+• Tore, MVP, Overtime… dank Overwolf Game Events API ohne Verzögerung.
 
-## 🪄 Animated Effects
-Zoom, shake, pulse & fade with smooth GSAP 3 presets – make every moment pop.
+## 🪄 Animierte Effekte
+• Zoom, Shake, Pulse & Fade mit GSAP 3 – jeder Moment wird zum Highlight.
 
-## 🎛️ Hotkeys & Overlay
-Resizable overlay window and per‑clip hotkeys let you stay in control mid‑match.
+## 🎛️ Hotkeys & Overlay
+• Anpassbares Overlay und pro-Clip-Hotkeys für volle Kontrolle im Match.

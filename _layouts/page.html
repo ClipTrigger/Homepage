@@ -8,22 +8,24 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-
 <header>
   <div style="display:flex;align-items:center;">
-    <img src="{{ '/assets/img/logo_placeholder.png' | relative_url }}" alt="ClipTrigger logo">
+    <img src="{{ '/assets/img/logo_placeholder.png' | relative_url }}" alt="ClipTrigger Logo (Home)">
     <nav>
       <a href="{{ '/' | relative_url }}">Home</a>
       <a href="{{ '/legal/' | relative_url }}">Legal</a>
-      <a href="https://www.overwolf.com/app/ClipTrigger" target="_blank">Download</a>
+      <a href="https://www.overwolf.com/app/ClipTrigger" target="_blank" rel="noopener">Download</a>
     </nav>
   </div>
-  <a href="https://www.overwolf.com/app/ClipTrigger" target="_blank"><button class="cta">Download</button></a>
+  <a href="https://www.overwolf.com/app/ClipTrigger" target="_blank" rel="noopener"><button class="cta">Download</button></a>
 </header>
-
-<article>
-{{ content }}
-</article>
-<footer>© 2025 Simon Rambow – <a href="{{ '/legal/' | relative_url }}">Legal Notice &amp; Privacy</a></footer>
+<main>
+  <article>
+    {{ content }}
+  </article>
+</main>
+<footer>
+  © 2025 Simon Rambow – <a href="{{ '/legal/' | relative_url }}">Legal Notice &amp; Privacy</a>
+</footer>
 </body>
 </html>
