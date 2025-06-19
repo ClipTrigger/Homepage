@@ -18,6 +18,7 @@ permalink: /legal/
   <thead>
     <tr>
       <th>Imprint</th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
