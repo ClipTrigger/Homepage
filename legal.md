@@ -4,24 +4,38 @@ title: "Legal Notice & Privacy"
 permalink: /legal/
 ---
 
-# ClipTrigger · Legal Notice & Privacy Policy
-
-_Last updated: 13 June 2025_
-
----
-
-## 1. Publisher Information (Imprint)
-
-|  |  |
-| --- | --- |
-| **Responsible entity (Controller)** | **Simon Rambow** |
-| **Address** | Josef-Kohtes-Straße 34, 40670 Meerbusch, Germany |
-| **E-mail** | ClipTrigger.ow@gmail.com |
-| **VAT-ID / Trade Register** | _Not available at this time_ |
+<div class="legal-hero">
+  <h1>ClipTrigger · Legal Notice &amp; Privacy Policy</h1>
+  <div class="legal-date">Last updated: <strong>13 Jun 2025</strong></div>
+</div>
 
 ---
 
-## 2. Disclaimer & External Links  
+<div class="legal-card legal-imprint">
+  <h2>1. Publisher Information <span class="legal-imprint-sub">(Imprint)</span></h2>
+  <div class="legal-imprint-table">
+    <div>
+      <span class="legal-imprint-label">Responsible entity (Controller):</span>
+      <span class="legal-imprint-value">Simon Rambow</span>
+    </div>
+    <div>
+      <span class="legal-imprint-label">Address:</span>
+      <span class="legal-imprint-value">Josef-Kohtes-Straße 34, 40670 Meerbusch, Germany</span>
+    </div>
+    <div>
+      <span class="legal-imprint-label">E-mail:</span>
+      <span class="legal-imprint-value">ClipTrigger.ow@gmail.com</span>
+    </div>
+    <div>
+      <span class="legal-imprint-label">VAT-ID / Trade Register:</span>
+      <span class="legal-imprint-value"><em>Not available at this time</em></span>
+    </div>
+  </div>
+</div>
+
+---
+
+## 2. Disclaimer & External Links
 
 ClipTrigger (“the App”) is an **unofficial, community-driven overlay** built with the Overwolf SDK.  
 It is **not affiliated with, endorsed by, or sponsored by** Overwolf Ltd., Psyonix LLC / Epic Games (Rocket League), Riot Games, Google LLC (YouTube™) or any other trademark holder.  
@@ -29,32 +43,31 @@ All product names, logos and brands are property of their respective owners.
 
 External links (e.g. YouTube videos) lead to third-party content over which we have no control; the respective provider is solely responsible.
 
-### 2.1 User-generated Clips & Acceptable-Use Policy  
+### 2.1 User-generated Clips & Acceptable-Use Policy
 
-* **User responsibility.** You are fully responsible for every clip, screenshot or media file you create, upload, stream or share via ClipTrigger.  
-* **Rights & licences.** You confirm that you **own or have secured all necessary rights** to any content you post or broadcast, or that such content is expressly free to use (licence-free, public-domain, fair-use, etc.).  
-* **No liability.** ClipTrigger, the developer (Simon Rambow) and contributors **accept no liability for the legality, accuracy or decency** of user content.  
-* **Prohibited content.** The App may **not be used** for  
+- **User responsibility.** You are fully responsible for every clip, screenshot or media file you create, upload, stream or share via ClipTrigger.
+- **Rights & licences.** You confirm that you **own or have secured all necessary rights** to any content you post or broadcast, or that such content is expressly free to use (licence-free, public-domain, fair-use, etc.).
+- **No liability.** ClipTrigger, the developer (Simon Rambow) and contributors **accept no liability for the legality, accuracy or decency** of user content.
+- **Prohibited content.** The App may **not be used** for:
+  - illegal content (child sexual-abuse material, extremist propaganda, unlicensed copyrighted works, etc.)
+  - pornography or sexually explicit content aimed at sexual arousal
+  - gratuitous real-world violence, gore or hate content.
 
-  * illegal content (child sexual-abuse material, extremist propaganda, unlicensed copyrighted works, etc.)  
-  * pornography or sexually explicit content aimed at sexual arousal  
-  * gratuitous real-world violence, gore or hate content.  
+  Violations can lead to deletion of content, suspension of features or—where required—reports to the authorities.
 
-  Violations can lead to deletion of content, suspension of features or—where required—reports to the authorities.  
+- **Streaming & public display.** When you stream or publish clips you must comply with the Terms of Service of the relevant platform (e.g. Twitch, YouTube), local broadcasting laws and rights of all parties depicted.
 
-* **Streaming & public display.** When you stream or publish clips you must comply with the Terms of Service of the relevant platform (e.g. Twitch, YouTube), local broadcasting laws and rights of all parties depicted.
+### 2.2 Advertising & Premium Service
 
-### 2.2 Advertising & Premium Service  
+ClipTrigger may stay free by showing **Overwolf Ads** (video & banner).
 
-ClipTrigger may stay free by showing **Overwolf Ads** (video & banner).  
-
-* Ads are delivered by Overwolf; we do **not receive personal data** about you. Overwolf may use device identifiers or locale settings (see their privacy policy).  
-* A planned **Premium subscription** will remove third-party ads.  
-* Ads will never block core gameplay UI; audio is muted by default unless you choose otherwise.
+- Ads are delivered by Overwolf; we do **not receive personal data** about you. Overwolf may use device identifiers or locale settings (see their privacy policy).
+- A planned **Premium subscription** will remove third-party ads.
+- Ads will never block core gameplay UI; audio is muted by default unless you choose otherwise.
 
 ---
 
-## 3. Copyright  
+## 3. Copyright
 
 © 2025 **Simon Rambow**. **All rights reserved.**  
 You may **not copy, modify, distribute, sell or sublicense** any part of the ClipTrigger source code without prior written permission.  
@@ -64,23 +77,66 @@ Third-party libraries bundled with the App remain subject to their own licences 
 
 ## 4. Data-Privacy Policy (GDPR Art. 13 / 14)
 
-### 4.1 Data Controller  
+### 4.1 Data Controller
 
 See § 1.
 
-### 4.2 Data we process  
+### 4.2 Data we process
 
-| Data category | Origin | Purpose | Stored where | Retention |
-|--------------|--------|---------|--------------|-----------|
-| **In-game events & state** (score, goal timestamps) | Overwolf Game Events API | Triggering clip playback | Device only | Deleted upon un-installation |
-| **User settings** (hot-keys, volume, clip list) | You | Personalising the overlay | Local file (Overwolf profile) | Until deleted or reset |
-| **Advertising delivery data** (ad impressions, clicks, non-personal device info) | Overwolf Ads SDK | Showing & measuring ads | Overwolf servers | Per Overwolf policy |
-| **YouTube search queries & video IDs** | You → Google APIs | Fetching clips | Google servers | Per Google Privacy Policy |
-| **Crash/runtime logs** (non-personal) | App | Debug & stability | Device only | Rolling 7-day log |
+<div class="legal-table-scroll">
+<table class="legal-table">
+  <thead>
+    <tr>
+      <th>Data category</th>
+      <th>Origin</th>
+      <th>Purpose</th>
+      <th>Stored where</th>
+      <th>Retention</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>In-game events &amp; state</strong> (score, goal timestamps)</td>
+      <td>Overwolf Game Events API</td>
+      <td>Triggering clip playback</td>
+      <td>Device only</td>
+      <td>Deleted upon un-installation</td>
+    </tr>
+    <tr>
+      <td><strong>User settings</strong> (hot-keys, volume, clip list)</td>
+      <td>You</td>
+      <td>Personalising the overlay</td>
+      <td>Local file (Overwolf profile)</td>
+      <td>Until deleted or reset</td>
+    </tr>
+    <tr>
+      <td><strong>Advertising delivery data</strong> (ad impressions, clicks, non-personal device info)</td>
+      <td>Overwolf Ads SDK</td>
+      <td>Showing &amp; measuring ads</td>
+      <td>Overwolf servers</td>
+      <td>Per Overwolf policy</td>
+    </tr>
+    <tr>
+      <td><strong>YouTube search queries &amp; video IDs</strong></td>
+      <td>You → Google APIs</td>
+      <td>Fetching clips</td>
+      <td>Google servers</td>
+      <td>Per Google Privacy Policy</td>
+    </tr>
+    <tr>
+      <td><strong>Crash/runtime logs</strong> (non-personal)</td>
+      <td>App</td>
+      <td>Debug &amp; stability</td>
+      <td>Device only</td>
+      <td>Rolling 7-day log</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 > **We do NOT:** create accounts, collect personal identifiers, track you across devices, or send gameplay data to our own servers.
 
-### 4.3 Legal bases  
+### 4.3 Legal bases
 
 | Processing | GDPR legal basis |
 |-----------|------------------|
@@ -89,7 +145,7 @@ See § 1.
 | Advertising via Overwolf Ads | **Art. 6 (1)(f)** – legitimate interest (financing the App) |
 | YouTube API requests | **Art. 6 (1)(b)** – service you requested |
 
-### 4.4 Recipients & Third-party Services  
+### 4.4 Recipients & Third-party Services
 
 | Service | Data shared | Documentation |
 |---------|------------|---------------|
@@ -98,21 +154,21 @@ See § 1.
 | **YouTube Data API v3** | Search terms & video IDs | <https://developers.google.com/youtube/terms> — by using ClipTrigger you also agree to the [YouTube ToS](https://www.youtube.com/t/terms) & [Google Privacy Policy](https://policies.google.com/privacy) |
 | **GSAP v3**, **dnd-kit** | No data; client-side only | GSAP: <https://greensock.com/l> • dnd-kit: <https://github.com/clauderic/dnd-kit> |
 
-### 4.5 Your rights  
+### 4.5 Your rights
 
 You may **access, rectify, delete, restrict, object or port** your data (GDPR Art. 15-21). Contact us via § 1. You may also lodge a complaint with your supervisory authority.
 
-### 4.6 Children  
+### 4.6 Children
 
 ClipTrigger is **not directed to children under 13** (or the minimum age in your jurisdiction). We do not knowingly process their data.
 
-### 4.7 Changes  
+### 4.7 Changes
 
 We may update this notice; the latest version is always available at this URL. Material changes are announced in-App at least 14 days before they take effect.
 
 ---
 
-## 5. Open-Source & Third-Party Licences  
+## 5. Open-Source & Third-Party Licences
 
 | Component | Licence | Link |
 |-----------|---------|------|
@@ -126,14 +182,14 @@ A complete list of third-party licences is stored in `/licenses`.
 
 ---
 
-## 6. Warranty Disclaimer & Limitation of Liability  
+## 6. Warranty Disclaimer & Limitation of Liability
 
 The App is provided **“as is” and “as available”** without warranty of any kind. To the maximum extent permitted by law:
 
-* We make **no express or implied warranties** (including merchantability, fitness for a particular purpose, non-infringement).  
-* We **do not warrant** that the App will be uninterrupted, error-free or fit for your specific needs.  
-* We are liable **only for intentional misconduct and gross negligence**. For simple negligence we are liable solely for breach of essential contractual duties (*Kardinalpflichten*) and limited to typical, foreseeable damages.  
-* Mandatory statutory liability (e.g. under the German Product Liability Act, for personal injury) remains unaffected.
+- We make **no express or implied warranties** (including merchantability, fitness for a particular purpose, non-infringement).
+- We **do not warrant** that the App will be uninterrupted, error-free or fit for your specific needs.
+- We are liable **only for intentional misconduct and gross negligence**. For simple negligence we are liable solely for breach of essential contractual duties (*Kardinalpflichten*) and limited to typical, foreseeable damages.
+- Mandatory statutory liability (e.g. under the German Product Liability Act, for personal injury) remains unaffected.
 
 ---
 
@@ -150,27 +206,54 @@ If you believe that content created or shared via ClipTrigger infringes your int
 
 Your notice must include:
 
-1. Identification of the work(s) allegedly infringed.  
-2. Exact location (URL, clip ID, screenshot) of the infringing material.  
-3. Your contact information.  
-4. A statement of good-faith belief that the use is unauthorized.  
-5. A statement, under penalty of perjury, that the information is accurate and you are authorized to act.  
+1. Identification of the work(s) allegedly infringed.
+2. Exact location (URL, clip ID, screenshot) of the infringing material.
+3. Your contact information.
+4. A statement of good-faith belief that the use is unauthorized.
+5. A statement, under penalty of perjury, that the information is accurate and you are authorized to act.
 
 We will respond, investigate and—where appropriate—remove or disable access to the material. Users who repeatedly infringe may be suspended or terminated.
 
 ---
 
-## 8. Contact  
+## 8. Contact
 
 Questions? Please email **ClipTrigger.ow@gmail.com**.
 
 ---
 
-## Changelog  
+## Changelog
 
-| Date (UTC) | Version | Change |
-|------------|---------|--------|
-| 2025-06-13 | **1.3.0** | Added **§ 6 Warranty Disclaimer & Limitation of Liability** and **§ 7 Notice-and-Takedown Procedure** |
-| 2025-06-13 | 1.2.0 | Advertising & Premium Service section; updated data tables |
-| 2025-06-13 | 1.1.0 | Imprint completed; user-generated-content policy |
-| 2025-06-13 | 1.0.0 | Initial publication |
+<div class="legal-table-scroll">
+<table class="legal-table legal-changelog">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Version</th>
+      <th>Change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>13 Jun 2025</td>
+      <td><strong>1.3.0</strong></td>
+      <td>Added <strong>§ 6 Warranty Disclaimer &amp; Limitation of Liability</strong> and <strong>§ 7 Notice-and-Takedown Procedure</strong></td>
+    </tr>
+    <tr>
+      <td>13 Jun 2025</td>
+      <td>1.2.0</td>
+      <td>Advertising &amp; Premium Service section; updated data tables</td>
+    </tr>
+    <tr>
+      <td>13 Jun 2025</td>
+      <td>1.1.0</td>
+      <td>Imprint completed; user-generated-content policy</td>
+    </tr>
+    <tr>
+      <td>13 Jun 2025</td>
+      <td>1.0.0</td>
+      <td>Initial publication</td>
+    </tr>
+  </tbody>
+</table>
+</div>

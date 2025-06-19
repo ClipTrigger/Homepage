@@ -268,6 +268,135 @@ footer a:hover, footer a:focus-visible {
   line-height: 1.6;
 }
 
+/* Legal Page Hero */
+.legal-hero {
+  text-align: center;
+  margin-bottom: 2.2rem;
+  margin-top: 0.5rem;
+}
+.legal-hero h1 {
+  font-size: 2.1rem;
+  font-weight: 800;
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.01em;
+}
+.legal-date {
+  color: var(--text-muted);
+  font-size: 1.08rem;
+  margin-bottom: 0.2rem;
+}
+
+/* Legal Card (Imprint) */
+.legal-card {
+  background: var(--surface-alt);
+  border-radius: 14px;
+  box-shadow: 0 2px 16px #0003;
+  padding: 1.5rem 1.3rem 1.2rem 1.3rem;
+  margin: 0 auto 2.2rem auto;
+  max-width: 600px;
+  border: 1px solid #23242a;
+}
+.legal-imprint h2 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-bottom: 1.1rem;
+  color: var(--text);
+  letter-spacing: 0.01em;
+}
+.legal-imprint-sub {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-muted);
+}
+.legal-imprint-table {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+.legal-imprint-label {
+  display: inline-block;
+  min-width: 160px;
+  font-weight: 600;
+  color: var(--accent);
+}
+.legal-imprint-value {
+  color: var(--text);
+  margin-left: 0.5rem;
+}
+
+/* Legal Tables (Data, Changelog) */
+.legal-table-scroll {
+  overflow-x: auto;
+  margin: 1.2rem 0 2.2rem 0;
+}
+.legal-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: var(--surface-alt);
+  border-radius: 10px;
+  box-shadow: 0 1px 8px #0002;
+  font-size: 0.98rem;
+  min-width: 600px;
+  margin: 0 auto;
+}
+.legal-table th, .legal-table td {
+  border: none;
+  padding: .7rem .9rem;
+  text-align: left;
+}
+.legal-table th {
+  background: #23242a;
+  color: var(--accent);
+  font-weight: 700;
+  border-bottom: 2px solid #ff910033;
+  font-size: 1.01rem;
+}
+.legal-table tr {
+  border-bottom: 1px solid #23242a;
+}
+.legal-table tr:last-child {
+  border-bottom: none;
+}
+.legal-table td {
+  color: var(--text);
+}
+.legal-changelog th, .legal-changelog td {
+  text-align: left;
+  white-space: nowrap;
+}
+.legal-changelog td:nth-child(3) {
+  white-space: normal;
+  max-width: 340px;
+}
+@media (max-width: 700px) {
+  .legal-card, .legal-table {
+    max-width: 100vw;
+    min-width: 0;
+    font-size: 0.97rem;
+  }
+  .legal-table-scroll {
+    margin: 0.7rem 0 1.2rem 0;
+  }
+  .legal-hero h1 {
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 500px) {
+  .legal-imprint-label {
+    min-width: 90px;
+    font-size: 0.97rem;
+  }
+  .legal-card {
+    padding: 1rem 0.5rem 0.7rem 0.5rem;
+  }
+  .legal-table th, .legal-table td {
+    padding: .5rem .4rem;
+    font-size: 0.95rem;
+  }
+}
+
 /* Responsive Anpassungen */
 @media (max-width: 900px) {
   .features-list {
