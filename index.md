@@ -4,7 +4,7 @@ title: ClipTrigger
 ---
 
 <div class="home-hero">
-  <h1>Level‑Up Your Rocket&nbsp;League Hype</h1>
+  <h1>Customize Your Gaming-Experience</h1>
   <p>
     ClipTrigger plays your favourite reaction clips <em>the moment</em> something epic happens in-game.<br>
     From local MP4s to YouTube memes – fully customisable, ad-supported (or ad-free premium coming soon).
@@ -17,7 +17,7 @@ title: ClipTrigger
     <span class="feature-icon">🎞️</span>
     <div class="feature-title">Local &amp; YouTube Clips</div>
     <div class="feature-desc">
-      Drag-n-drop MP4s or paste any public YouTube/GIPHY link – ClipTrigger handles it all.
+      Drag-n-drop MP4s or paste any public YouTube link – ClipTrigger handles it all.
     </div>
   </div>
   <div class="feature-card">

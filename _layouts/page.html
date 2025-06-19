@@ -10,7 +10,7 @@
 <body>
 <header>
   <div style="display:flex;align-items:center;">
-    <img src="{{ '/assets/img/logo_placeholder.png' | relative_url }}" alt="ClipTrigger Logo (Home)">
+    <img src="{{ '/assets/img/ClipTrigger-Icon_farbig_klein.png' | relative_url }}" alt="ClipTrigger Logo (Home)">
     <nav>
       <a href="{{ '/' | relative_url }}">Home</a>
       <a href="{{ '/legal/' | relative_url }}">Legal</a>
@@ -21,6 +21,11 @@
 </header>
 <main>
   <article>
+    {%- if page.url == "/" or page.url == "" -%}
+      <div style="display:flex;justify-content:center;margin-bottom:1.8rem;">
+        <img src="{{ '/assets/img/ClipTrigger-Icon_farbig_original.png' | relative_url }}" alt="ClipTrigger App Icon" style="max-width:170px;width:40vw;height:auto;box-shadow:0 4px 32px #0004;border-radius:22px;">
+      </div>
+    {%- endif -%}
     {{ content }}
   </article>
 </main>
