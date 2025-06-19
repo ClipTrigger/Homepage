@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} – ClipTrigger</title>
+  <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+
+<header>
+  <div style="display:flex;align-items:center;">
+    <img src="{{ '/assets/img/logo_placeholder.png' | relative_url }}" alt="ClipTrigger logo">
+    <nav>
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/legal/' | relative_url }}">Legal</a>
+      <a href="https://www.overwolf.com/app/ClipTrigger" target="_blank">Download</a>
+    </nav>
+  </div>
+  <a href="https://www.overwolf.com/app/ClipTrigger" target="_blank"><button class="cta">Download</button></a>
+</header>
+
+<article>
+{{ content }}
+</article>
+<footer>© 2025 Simon Rambow – <a href="{{ '/legal/' | relative_url }}">Legal Notice &amp; Privacy</a></footer>
+</body>
+</html>
