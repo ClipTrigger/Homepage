@@ -11,25 +11,29 @@ permalink: /legal/
 
 ---
 
-<div class="legal-card legal-imprint">
+<div class="legal-card">
   <h2>1. Publisher Information <span class="legal-imprint-sub">(Imprint)</span></h2>
-  <div class="legal-imprint-table">
-    <div>
-      <span class="legal-imprint-label">Responsible entity (Controller):</span>
-      <span class="legal-imprint-value">Simon Rambow</span>
-    </div>
-    <div>
-      <span class="legal-imprint-label">Address:</span>
-      <span class="legal-imprint-value">Josef-Kohtes-Straße 34, 40670 Meerbusch, Germany</span>
-    </div>
-    <div>
-      <span class="legal-imprint-label">E-mail:</span>
-      <span class="legal-imprint-value">ClipTrigger.ow@gmail.com</span>
-    </div>
-    <div>
-      <span class="legal-imprint-label">VAT-ID / Trade Register:</span>
-      <span class="legal-imprint-value"><em>Not available at this time</em></span>
-    </div>
+  <div class="legal-table-scroll">
+    <table class="legal-table legal-imprint-table">
+      <tbody>
+        <tr>
+          <th>Responsible entity (Controller):</th>
+          <td>Simon Rambow</td>
+        </tr>
+        <tr>
+          <th>Address:</th>
+          <td>Josef-Kohtes-Straße 34, 40670 Meerbusch, Germany</td>
+        </tr>
+        <tr>
+          <th>E-mail:</th>
+          <td>ClipTrigger.ow@gmail.com</td>
+        </tr>
+        <tr>
+          <th>VAT-ID / Trade Register:</th>
+          <td><em>Not available at this time</em></td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </div>
 
@@ -178,8 +182,6 @@ We may update this notice; the latest version is always available at this URL. M
 | **Overwolf type definitions 3.x** | MIT | <https://github.com/overwolf/types> |
 | **Vite 5**, **TypeScript 5** | MIT | vitejs.dev • typescriptlang.org |
 
-A complete list of third-party licences is stored in `/licenses`.
-
 ---
 
 ## 6. Warranty Disclaimer & Limitation of Liability
@@ -255,5 +257,7 @@ Questions? Please email **ClipTrigger.ow@gmail.com**.
       <td>Initial publication</td>
     </tr>
   </tbody>
+</table>
+</div>
 </table>
 </div>
