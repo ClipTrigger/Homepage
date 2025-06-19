@@ -370,9 +370,13 @@ footer a:hover, footer a:focus-visible {
   margin: 0 auto;
   table-layout: auto;
   word-break: break-word;
-  border: none; /* remove border for cleaner look */
-  /* Remove top border artifact */
+  border: none;
   border-top: none;
+}
+/* Remove top border from first row in all legal tables */
+.legal-table tr:first-child th,
+.legal-table tr:first-child td {
+  border-top: none !important;
 }
 .legal-table th, .legal-table td {
   border: none;
