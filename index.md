@@ -6,8 +6,8 @@ title: ClipTrigger
 <div class="home-hero">
   <h1>Level‑Up Your Rocket&nbsp;League Hype</h1>
   <p>
-    ClipTrigger spielt deine Lieblings-Reaction-Clips <em>sofort</em>, wenn im Spiel etwas Episches passiert.<br>
-    Von lokalen MP4s bis YouTube-Memes – voll anpassbar, werbefinanziert (oder bald werbefrei mit Premium).
+    ClipTrigger plays your favourite reaction clips <em>the moment</em> something epic happens in-game.<br>
+    From local MP4s to YouTube memes – fully customisable, ad-supported (or ad-free premium coming soon).
   </p>
   <a href="https://www.overwolf.com/app/ClipTrigger" class="cta" target="_blank" rel="noopener">Get it on Overwolf</a>
 </div>
@@ -15,30 +15,30 @@ title: ClipTrigger
 <div class="features-list">
   <div class="feature-card">
     <span class="feature-icon">🎞️</span>
-    <div class="feature-title">Lokale &amp; YouTube-Clips</div>
+    <div class="feature-title">Local &amp; YouTube Clips</div>
     <div class="feature-desc">
-      Ziehe MP4s ins Overlay oder füge öffentliche YouTube/GIPHY-Links ein – ClipTrigger spielt alles ab.
+      Drag-n-drop MP4s or paste any public YouTube/GIPHY link – ClipTrigger handles it all.
     </div>
   </div>
   <div class="feature-card">
     <span class="feature-icon">⚽</span>
-    <div class="feature-title">Echtzeit-Game-Events</div>
+    <div class="feature-title">Real-Time Game Events</div>
     <div class="feature-desc">
-      Tore, MVP, Overtime… dank Overwolf Game Events API ohne Verzögerung.
+      Goals, MVP, overtime… Powered by Overwolf’s Game Events API for zero-lag triggers.
     </div>
   </div>
   <div class="feature-card">
     <span class="feature-icon">🪄</span>
-    <div class="feature-title">Animierte Effekte</div>
+    <div class="feature-title">Animated Effects</div>
     <div class="feature-desc">
-      Zoom, Shake, Pulse &amp; Fade mit GSAP 3 – jeder Moment wird zum Highlight.
+      Zoom, shake, pulse &amp; fade with smooth GSAP 3 presets – make every moment pop.
     </div>
   </div>
   <div class="feature-card">
     <span class="feature-icon">🎛️</span>
     <div class="feature-title">Hotkeys &amp; Overlay</div>
     <div class="feature-desc">
-      Anpassbares Overlay und pro-Clip-Hotkeys für volle Kontrolle im Match.
+      Resizable overlay window and per-clip hotkeys let you stay in control mid-match.
     </div>
   </div>
 </div>
