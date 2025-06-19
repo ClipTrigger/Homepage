@@ -368,60 +368,71 @@ footer a:hover, footer a:focus-visible {
   font-size: 0.98rem;
   min-width: 600px;
   margin: 0 auto;
+  table-layout: auto;
+  word-break: break-word;
 }
 .legal-table th, .legal-table td {
   border: none;
   padding: .7rem .9rem;
   text-align: left;
+  vertical-align: middle;
 }
 .legal-table th {
   background: #23242a;
   color: var(--accent);
-  font-weight: 700;
+  font-weight: 600;
   border-bottom: 2px solid #ff910033;
   font-size: 1.01rem;
-}
-.legal-table tr {
-  border-bottom: 1px solid #23242a;
-}
-.legal-table tr:last-child {
-  border-bottom: none;
+  min-width: 170px;
+  width: 220px;
+  max-width: 240px;
+  white-space: normal;
+  vertical-align: middle;
 }
 .legal-table td {
   color: var(--text);
+  background: transparent;
+  border-bottom: 1px solid #23242a;
+  word-break: break-word;
+  vertical-align: middle;
 }
-.legal-changelog th, .legal-changelog td {
-  text-align: left;
-  white-space: nowrap;
+.legal-table tr:last-child th,
+.legal-table tr:last-child td {
+  border-bottom: none;
 }
-.legal-changelog td:nth-child(3) {
-  white-space: normal;
-  max-width: 340px;
+.legal-card .legal-table {
+  margin: 0;
+  min-width: 0;
+  width: 100%;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: none;
+}
+.legal-card .legal-table th {
+  background: #23242a;
+  color: var(--accent);
+  font-weight: 600;
+  border-bottom: 1px solid #23242a;
+  font-size: 1.01rem;
+  min-width: 140px;
+  width: 180px;
+  max-width: 200px;
+}
+.legal-card .legal-table td {
+  color: var(--text);
+  background: transparent;
+  border-bottom: 1px solid #23242a;
 }
 @media (max-width: 700px) {
-  .legal-card, .legal-table {
-    max-width: 100vw;
-    min-width: 0;
+  .legal-card .legal-table th,
+  .legal-card .legal-table td {
     font-size: 0.97rem;
+    padding: .5rem .5rem;
   }
-  .legal-table-scroll {
-    margin: 0.7rem 0 1.2rem 0;
-  }
-  .legal-hero h1 {
-    font-size: 1.25rem;
-  }
-}
-@media (max-width: 500px) {
-  .legal-imprint-label {
+  .legal-card .legal-table th {
     min-width: 90px;
-    font-size: 0.97rem;
-  }
-  .legal-card {
-    padding: 1rem 0.5rem 0.7rem 0.5rem;
-  }
-  .legal-table th, .legal-table td {
-    padding: .5rem .4rem;
-    font-size: 0.95rem;
+    width: 110px;
+    max-width: 120px;
   }
 }
 
