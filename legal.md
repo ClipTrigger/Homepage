@@ -1,5 +1,5 @@
 ---
-layout: none
+layout: page
 title: "Legal Notice & Privacy"
 permalink: /legal/
 ---
