@@ -263,5 +263,3 @@ Questions? Please email **ClipTrigger.ow@gmail.com**.
   </tbody>
 </table>
 </div>
-</table>
-</div>
