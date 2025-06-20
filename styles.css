@@ -66,11 +66,9 @@ header {
   border-bottom: var(--border);
 }
 header img {
-  height: 44px;
+  height: 66px;
   margin-right: 1.2rem;
   border-radius: 6px;
-  background: #fff1;
-  box-shadow: 0 1px 6px #0002;
 }
 nav a {
   margin-left: 1.5rem;
