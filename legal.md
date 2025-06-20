@@ -13,34 +13,12 @@ permalink: /legal/
 
 ## 1. Publisher Information
 
-<div class="legal-table-scroll">
-<table class="legal-table">
-  <thead>
-    <tr>
-      <th>Imprint</th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Responsible entity (Controller)</td>
-      <td>Simon Rambow</td>
-    </tr>
-    <tr>
-      <td>Address</td>
-      <td>Josef-Kohtes-Straße 34, 40670 Meerbusch, Germany</td>
-    </tr>
-    <tr>
-      <td>E-mail</td>
-      <td>ClipTrigger.ow@gmail.com</td>
-    </tr>
-    <tr>
-      <td>VAT-ID / Trade Register</td>
-      <td><em>Not available at this time</em></td>
-    </tr>
-  </tbody>
-</table>
-</div>
+| Imprint |  |
+|------|------|
+| **Responsible entity (Controller)** | Simon Rambow |
+| **Address** | Josef-Kohtes-Straße 34, 40670 Meerbusch, Germany |
+| **E-mail** | ClipTrigger.ow@gmail.com |
+| **VAT-ID / Trade Register** | *Not available at this time* |
 
 ---
 
