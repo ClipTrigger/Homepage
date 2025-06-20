@@ -502,3 +502,97 @@ footer a:hover, footer a:focus-visible {
 ::-webkit-scrollbar-thumb:hover {
   background: #35374a;
 }
+
+/* ───────── Landing Page Upgrades ───────── */
+.hero-video{
+  position:relative;
+  height:100vh;
+  overflow:hidden;
+}
+.hero-video video{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  filter:brightness(.4);
+}
+.hero-overlay{
+  position:relative;
+  z-index:1;
+  max-width:900px;
+  margin:auto;
+  height:100%;
+  padding:0 1rem;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+.hero-overlay h1{
+  font-size:clamp(2.2rem,6vw,4rem);
+  line-height:1.15;
+  margin-bottom:1rem;
+}
+.hero-overlay .accent{
+  color:var(--accent);
+}
+.feature-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:2rem;
+  margin:4rem auto;
+  max-width:1200px;
+}
+.feature-grid .feature-card{
+  background:var(--surface);
+  padding:2rem;
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+  transition:transform .2s,box-shadow .2s;
+}
+.feature-grid .feature-card:hover{
+  transform:translateY(-6px);
+  box-shadow:0 6px 24px #0006;
+}
+.feature-icon{
+  font-size:2.4rem;
+  margin-bottom:.6rem;
+  display:block;
+}
+.screenshot{
+  display:flex;
+  flex-wrap:wrap;
+  gap:2rem;
+  align-items:center;
+  margin:5rem auto;
+  max-width:1200px;
+}
+.screenshot img{
+  flex:1 1 480px;
+  max-width:640px;
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+}
+.screenshot .text{
+  flex:1 1 320px;
+}
+.screenshot h2{
+  font-size:clamp(1.6rem,4vw,2.5rem);
+  margin-bottom:.6rem;
+}
+.cta.ghost{
+  background:transparent;
+  color:var(--accent);
+  box-shadow:none;
+  border:2px solid var(--accent);
+}
+@media (max-width:700px){
+  .hero-video{
+    height:75vh;
+  }
+  .screenshot{
+    flex-direction:column;
+  }
+}

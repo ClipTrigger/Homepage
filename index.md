@@ -3,42 +3,45 @@ layout: page
 title: ClipTrigger
 ---
 
-<div class="home-hero">
-  <h1>Customize Your Gaming-Experience</h1>
-  <p>
-    ClipTrigger plays your favourite reaction clips <em>the moment</em> something epic happens in-game.<br>
-    From local MP4s to YouTube memes – fully customisable, ad-supported (or ad-free premium coming soon).
-  </p>
-  <a href="https://www.overwolf.com/app/ClipTrigger" class="cta" target="_blank" rel="noopener">Get it on Overwolf</a>
-</div>
+<!-- ───── Hero Section ───── -->
+<section class="hero-video">
+  <video autoplay loop muted playsinline>
+    <source src="{{ '/assets/img/hero_loop.mp4' | relative_url }}" type="video/mp4">
+  </video>
 
-<div class="features-list">
-  <div class="feature-card">
-    <span class="feature-icon">🎞️</span>
-    <div class="feature-title">Local &amp; YouTube Clips</div>
-    <div class="feature-desc">
-      Drag-n-drop MP4s or paste any public YouTube link – ClipTrigger handles it all.
-    </div>
+  <div class="hero-overlay">
+    <h1>Relive your <span class="accent">greatest plays</span> instantly</h1>
+    <p>
+      ClipTrigger fires your favourite reaction clips the second something epic
+      happens in-game – from local MP4s to YouTube memes.
+    </p>
+    <a class="cta" href="https://www.overwolf.com/app/ClipTrigger" target="_blank" rel="noopener">
+      Get it on Overwolf
+    </a>
   </div>
-  <div class="feature-card">
-    <span class="feature-icon">⚽</span>
-    <div class="feature-title">Real-Time Game Events</div>
-    <div class="feature-desc">
-      Goals, MVP, overtime… Powered by Overwolf’s Game Events API for zero-lag triggers.
-    </div>
+</section>
+
+<!-- ───── Features Grid ───── -->
+<section class="feature-grid">
+  {% for f in site.data.features %}
+  <article class="feature-card">
+    <span class="feature-icon">{{ f.icon }}</span>
+    <h3>{{ f.title }}</h3>
+    <p>{{ f.desc }}</p>
+  </article>
+  {% endfor %}
+</section>
+
+<!-- ───── Screenshot Section ───── -->
+<section class="screenshot">
+  <img src="{{ '/assets/img/Trigger-Settings.png' | relative_url }}" alt="Trigger settings screen">
+  <div class="text">
+    <h2>Fine-tune every trigger</h2>
+    <p>
+      Define exactly when each clip should play, set hotkeys or combine effects – no coding needed.
+    </p>
+    <a class="cta ghost" href="https://www.overwolf.com/app/ClipTrigger#screenshots" target="_blank" rel="noopener">
+      Explore all options
+    </a>
   </div>
-  <div class="feature-card">
-    <span class="feature-icon">🪄</span>
-    <div class="feature-title">Animated Effects</div>
-    <div class="feature-desc">
-      Zoom, shake, pulse &amp; fade with smooth GSAP 3 presets – make every moment pop.
-    </div>
-  </div>
-  <div class="feature-card">
-    <span class="feature-icon">🎛️</span>
-    <div class="feature-title">Hotkeys &amp; Overlay</div>
-    <div class="feature-desc">
-      Resizable overlay window and per-clip hotkeys let you stay in control mid-match.
-    </div>
-  </div>
-</div>
+</section>

@@ -6,11 +6,23 @@
   <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="preload" as="video" href="{{ '/assets/img/hero_loop.mp4' | relative_url }}" type="video/mp4">
+
+  <!-- Open Graph / Twitter Cards -->
+  <meta property="og:title" content="ClipTrigger – Relive your greatest plays instantly">
+  <meta property="og:description" content="ClipTrigger fires your favourite reaction clips the second something epic happens in-game – from local MP4s to YouTube memes.">
+  <meta property="og:image" content="{{ '/assets/img/Trigger-Settings.png' | relative_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ClipTrigger – Relive your greatest plays instantly">
+  <meta name="twitter:description" content="ClipTrigger fires your favourite reaction clips the second something epic happens in-game – from local MP4s to YouTube memes.">
+  <meta name="twitter:image" content="{{ '/assets/img/Trigger-Settings.png' | relative_url }}">
 </head>
 <body>
 <header>
   <div style="display:flex;align-items:center;">
-    <img src="{{ '/assets/img/ClipTrigger-Icon_farbig_klein.png' | relative_url }}" alt="ClipTrigger Logo (Home)">
+    <img src="{{ '/assets/img/ClipTrigger-Icon_farbig_klein.png' | relative_url }}" alt="ClipTrigger Logo">
     <nav>
       <a href="{{ '/' | relative_url }}">Home</a>
       <a href="{{ '/legal/' | relative_url }}">Legal</a>
@@ -19,18 +31,19 @@
   </div>
   <a href="https://www.overwolf.com/app/ClipTrigger" target="_blank" rel="noopener"><button class="cta">Download</button></a>
 </header>
+
 <main>
-  <article>
-    {%- if page.url == "/" or page.url == "" -%}
-      <div style="display:flex;justify-content:center;margin-bottom:1.8rem;">
-        <img src="{{ '/assets/img/ClipTrigger-Icon_farbig_original.png' | relative_url }}" alt="ClipTrigger App Icon" style="max-width:170px;width:40vw;height:auto;box-shadow:0 4px 32px #0004;border-radius:22px;">
-      </div>
-    {%- endif -%}
+  {%- if page.url == "/" or page.url == "" -%}
     {{ content }}
-  </article>
+  {%- else -%}
+    <article>
+      {{ content }}
+    </article>
+  {%- endif -%}
 </main>
+
 <footer>
-  © 2025 Simon Rambow – <a href="{{ '/legal/' | relative_url }}">Legal Notice &amp; Privacy</a>
+  © 2025 Simon Rambow – <a href="{{ '/legal/' | relative_url }}">Legal Notice&nbsp;&amp;&nbsp;Privacy</a>
 </footer>
 </body>
 </html>

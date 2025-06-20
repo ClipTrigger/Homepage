@@ -1,0 +1,15 @@
+- icon: "🎞️"
+  title: "Local & YouTube Clips"
+  desc: "Drag-n-drop MP4s or paste any public YouTube link – ClipTrigger handles it all."
+
+- icon: "⚽"
+  title: "Real-Time Game Events"
+  desc: "Goals, MVP, overtime… powered by Overwolf’s Game Events API for zero-lag triggers."
+
+- icon: "🪄"
+  title: "Animated Effects"
+  desc: "Zoom, shake, pulse & fade with smooth GSAP 3 presets – make every moment pop."
+
+- icon: "🎛️"
+  title: "Hotkeys & Overlay"
+  desc: "Resizable overlay window and per-clip hotkeys let you stay in control mid-match."
