@@ -604,8 +604,8 @@ footer a:hover, footer a:focus-visible {
   top:8rem;
   left:50%;
   transform:translateX(-50%);
-  width:88vw;
-  max-width:960px;
+  width:92vw;
+  max-width:1080px;
   filter:drop-shadow(0 4px 24px #0007);
   border-radius:22px;
 }
