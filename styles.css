@@ -596,3 +596,21 @@ footer a:hover, footer a:focus-visible {
     flex-direction:column;
   }
 }
+
+/* ───── Hero-Logo ───── */
+.hero-logo{
+  position:absolute;
+  top:2rem;
+  left:50%;
+  transform:translateX(-50%);
+  width:22vw;
+  max-width:240px;
+  filter:drop-shadow(0 4px 24px #0007);
+  border-radius:22px;
+}
+@media(max-width:600px){
+  .hero-logo{
+    width:36vw;
+    top:1.2rem;
+  }
+}
