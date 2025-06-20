@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+  <title>Twitch</title>
+  <path d="M3.857 2.3 0 5.159v9.143h3.857V16l2.857-2.857h2.857l5.715-5.714V0H3.857v2.3Zm10.429 4.4-2.858 2.857H8.571L5.714 14v-2.857H1.714V5.559L4.571 2.7h9.715v4z"/>
+  <path d="M11.143 4.7h1.143v3.429h-1.143V4.7Zm-2.572 0h1.143v3.429H8.571V4.7Z"/>
+</svg>
