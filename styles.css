@@ -311,7 +311,6 @@ footer a:hover, footer a:focus-visible {
 }
 .legal-imprint-table {
   width: 100%;
-  max-width: 520px;
   margin: 0 auto;
   border-radius: 10px;
   overflow: hidden;
