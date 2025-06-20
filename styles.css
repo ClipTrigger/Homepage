@@ -614,3 +614,35 @@ footer a:hover, footer a:focus-visible {
     top:1.2rem;
   }
 }
+
+/* ─── Social buttons (neu) ───────────────── */
+.nav-left{
+  display:flex;
+  align-items:center;
+}
+
+.social-nav{
+  display:flex;
+  align-items:center;
+}
+.social-nav a{
+  display:inline-block;
+  margin-left:1.1rem;
+  line-height:0;
+  transition:transform .15s;
+}
+.social-nav img{
+  width:28px;
+  height:28px;
+  user-select:none;
+  pointer-events:none;
+}
+.social-nav a:hover,
+.social-nav a:focus-visible{
+  transform:scale(1.12);
+}
+@media (prefers-color-scheme: dark){
+  .social-nav img{
+    filter:brightness(0) invert(1);
+  }
+}

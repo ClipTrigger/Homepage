@@ -21,14 +21,38 @@
 </head>
 <body>
 <header>
-  <div style="display:flex;align-items:center;">
+  <!-- linke Seite: Logo + interne Links -->
+  <div class="nav-left" style="display:flex;align-items:center;">
     <img src="{{ '/assets/img/ClipTrigger-Icon_farbig_klein.png' | relative_url }}" alt="ClipTrigger Logo">
     <nav>
       <a href="{{ '/' | relative_url }}">Home</a>
       <a href="{{ '/legal/' | relative_url }}">Legal</a>
     </nav>
   </div>
-  <a href="https://www.overwolf.com/app/ClipTrigger" target="_blank" rel="noopener"><button class="cta">Download</button></a>
+
+  <!-- Social-Links -->
+  <nav class="social-nav" aria-label="Social media">
+    <a href="https://youtube.com/@ClipTrigger" target="_blank" rel="noopener" aria-label="YouTube">
+      <img src="{{ '/assets/img/logo-youtube.svg' | relative_url }}" alt="">
+    </a>
+    <a href="https://discord.gg/cliptrigger" target="_blank" rel="noopener" aria-label="Discord">
+      <img src="{{ '/assets/img/logo-discord.svg' | relative_url }}" alt="">
+    </a>
+    <a href="https://twitch.tv/cliptrigger" target="_blank" rel="noopener" aria-label="Twitch">
+      <img src="{{ '/assets/img/logo-twitch.svg' | relative_url }}" alt="">
+    </a>
+    <a href="https://instagram.com/cliptrigger" target="_blank" rel="noopener" aria-label="Instagram">
+      <img src="{{ '/assets/img/logo-instagram.svg' | relative_url }}" alt="">
+    </a>
+    <a href="https://tiktok.com/@cliptrigger" target="_blank" rel="noopener" aria-label="TikTok">
+      <img src="{{ '/assets/img/logo-tiktok.svg' | relative_url }}" alt="">
+    </a>
+  </nav>
+
+  <!-- Call-to-Action -->
+  <a href="https://www.overwolf.com/app/ClipTrigger" target="_blank" rel="noopener">
+    <button class="cta">Download</button>
+  </a>
 </header>
 
 <main>
@@ -42,7 +66,7 @@
 </main>
 
 <footer>
-  © 2025 Simon Rambow – <a href="{{ '/legal/' | relative_url }}">Legal Notice&nbsp;&amp;&nbsp;Privacy</a>
+  © 2025 Simon Rambow – <a href="{{ '/legal/' | relative_url }}">Legal&nbsp;Notice&nbsp;&amp;&nbsp;Privacy</a>
 </footer>
 </body>
 </html>
