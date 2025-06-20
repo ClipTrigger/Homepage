@@ -600,7 +600,7 @@ footer a:hover, footer a:focus-visible {
 /* ───── Hero-Logo ───── */
 .hero-logo{
   position:absolute;
-  top:2rem;
+  top:5rem;
   left:50%;
   transform:translateX(-50%);
   width:88vw;
