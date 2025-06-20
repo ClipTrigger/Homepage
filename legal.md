@@ -23,19 +23,19 @@ permalink: /legal/
   </thead>
   <tbody>
     <tr>
-      <td><strong>Responsible entity (Controller)</strong></td>
+      <td>Responsible entity (Controller)</td>
       <td>Simon Rambow</td>
     </tr>
     <tr>
-      <td><strong>Address</strong></td>
+      <td>Address</td>
       <td>Josef-Kohtes-Straße 34, 40670 Meerbusch, Germany</td>
     </tr>
     <tr>
-      <td><strong>E-mail</strong></td>
+      <td>E-mail</td>
       <td>ClipTrigger.ow@gmail.com</td>
     </tr>
     <tr>
-      <td><strong>VAT-ID / Trade Register</strong></td>
+      <td>VAT-ID / Trade Register</td>
       <td><em>Not available at this time</em></td>
     </tr>
   </tbody>
