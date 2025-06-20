@@ -356,16 +356,18 @@ footer a:hover, footer a:focus-visible {
 .legal-table-scroll {
   overflow-x: auto;
   margin: 1.2rem 0 2.2rem 0;
+  padding: 0;
+  max-width: 100vw;
 }
 .legal-table {
   width: 100%;
+  max-width: 100%;
   border-collapse: separate;
   border-spacing: 0;
   background: var(--surface-alt);
   border-radius: 10px;
   box-shadow: 0 1px 8px #0002;
   font-size: 0.98rem;
-  min-width: 600px;
   margin: 0 auto;
   table-layout: auto;
   word-break: break-word;
