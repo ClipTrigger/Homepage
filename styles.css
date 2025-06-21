@@ -615,7 +615,7 @@ footer a:hover, footer a:focus-visible {
   }
 }
 
-/* ─── Social buttons (neu) ───────────────── */
+/* ─── Social buttons – NEU zentriert ───────────────── */
 .nav-left{
   display:flex;
   align-items:center;
@@ -625,21 +625,36 @@ footer a:hover, footer a:focus-visible {
   display:flex;
   align-items:center;
 }
+
+/* ▲▲▲ UMGEBAUT ▲▲▲
+   - Flexbox sorgt für exakte Zentrierung
+   - Einheitliche Button-Größe (44 × 44 px)
+   - Padding neutralisiert
+   - Hover ändert jetzt auch den Hintergrund-Kontrast
+*/
 .social-nav a{
-  display:inline-block;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:44px;
+  height:44px;
   margin-left:1.1rem;
+  background:var(--surface-alt);
+  border-radius:var(--radius);
+  padding:0;
   line-height:0;
-  transition:transform .15s;
+  transition:background .15s,transform .15s;
 }
 .social-nav img{
-  width:28px;
-  height:28px;
+  width:24px;
+  height:24px;
   user-select:none;
   pointer-events:none;
 }
 .social-nav a:hover,
 .social-nav a:focus-visible{
   transform:scale(1.12);
+  background:var(--accent-hover);
 }
 @media (prefers-color-scheme: dark){
   .social-nav img{
