@@ -67,8 +67,11 @@ header {
 }
 header img {
   height: 54px;
+  border-radius: 6px;          /* margin-right wurde entfernt */
+}
+/* Spezifisch nur für das Hauptlogo links */
+.nav-left > img {
   margin-right: 1.2rem;
-  border-radius: 6px;
 }
 nav a {
   margin-left: 1.5rem;
@@ -648,6 +651,7 @@ footer a:hover, footer a:focus-visible {
 .social-nav img{
   width:24px;
   height:24px;
+  margin:0;                 /* überschreibt margin-right aus header img */
   user-select:none;
   pointer-events:none;
 }
