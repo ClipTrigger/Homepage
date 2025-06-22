@@ -25,6 +25,35 @@ title: ClipTrigger
   </div>
 </section>
 
+<!-- ───── Trigger Settings Section ───── -->
+<section class="hero-trigger">
+  <img class="hero-trigger-bg"
+       src="{{ '/assets/img/Trigger-Settings.png' | relative_url }}"
+       alt=""
+       aria-hidden="true">
+
+  <div class="hero-trigger-overlay">
+    <div class="media">
+      <img
+        src="{{ '/assets/img/Trigger-Settings(2).png' | relative_url }}"
+        alt="Trigger settings detail view">
+    </div>
+
+    <div class="content">
+      <h2>Fine-tune every trigger</h2>
+      <p>
+        Define exactly when each clip should play, set hotkeys or combine effects – no coding needed.
+      </p>
+      <a class="cta"
+         href="https://www.overwolf.com/app/ClipTrigger#screenshots"
+         target="_blank"
+         rel="noopener">
+        Explore all options
+      </a>
+    </div>
+  </div>
+</section>
+
 <!-- ───── Features Grid ───── -->
 <section class="feature-grid">
   {% for f in site.data.features %}
@@ -36,16 +65,4 @@ title: ClipTrigger
   {% endfor %}
 </section>
 
-<!-- ───── Screenshot Section ───── -->
-<section class="screenshot">
-  <img src="{{ '/assets/img/Trigger-Settings.png' | relative_url }}" alt="Trigger settings screen">
-  <div class="text">
-    <h2>Fine-tune every trigger</h2>
-    <p>
-      Define exactly when each clip should play, set hotkeys or combine effects – no coding needed.
-    </p>
-    <a class="cta ghost" href="https://www.overwolf.com/app/ClipTrigger#screenshots" target="_blank" rel="noopener">
-      Explore all options
-    </a>
-  </div>
-</section>
+

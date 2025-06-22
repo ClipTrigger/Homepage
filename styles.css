@@ -30,12 +30,14 @@ a {
   text-decoration: none;
   transition: color 0.15s;
 }
-a:hover, a:focus-visible {
+a:hover,
+a:focus-visible {
   color: var(--accent-hover);
   text-decoration: underline;
   outline: none;
 }
-a.cta, button.cta {
+a.cta,
+button.cta {
   background: var(--accent);
   color: #181a20;
   padding: .65rem 1.3rem;
@@ -49,12 +51,20 @@ a.cta, button.cta {
   outline: none;
   display: inline-block;
 }
-a.cta:hover, a.cta:focus-visible,
-button.cta:hover, button.cta:focus-visible {
+a.cta:hover,
+a.cta:focus-visible,
+button.cta:hover,
+button.cta:focus-visible {
   background: var(--accent-hover);
   color: #181a20;
   box-shadow: 0 4px 24px 0 #0006;
   text-decoration: none;
+}
+.cta.ghost {
+  background: transparent;
+  color: var(--accent);
+  box-shadow: none;
+  border: 2px solid var(--accent);
 }
 header {
   display: flex;
@@ -67,7 +77,7 @@ header {
 }
 header img {
   height: 54px;
-  border-radius: 6px;          /* margin-right wurde entfernt */
+  border-radius: 6px;
 }
 /* Spezifisch nur für das Hauptlogo links */
 .nav-left > img {
@@ -82,7 +92,8 @@ nav a {
   border-radius: 6px;
   transition: background 0.13s;
 }
-nav a:hover, nav a:focus-visible {
+nav a:hover,
+nav a:focus-visible {
   background: #fff1;
   color: var(--accent-hover);
   outline: none;
@@ -104,23 +115,25 @@ article h1 {
 }
 article h2 {
   font-size: 1.55rem;
-  margin: 2.2rem 0 .7rem;
+  margin: 2.2rem 0 0.7rem;
   font-weight: 600;
 }
 article h3 {
   font-size: 1.18rem;
-  margin: 1.5rem 0 .5rem;
+  margin: 1.5rem 0 0.5rem;
   font-weight: 500;
 }
 article p {
   margin: 1.1rem 0;
 }
-article ul, article ol {
+article ul,
+article ol {
   margin-left: 1.5rem;
   margin-bottom: 1.1rem;
   padding-left: 0.5rem;
 }
-article ul li, article ol li {
+article ul li,
+article ol li {
   margin-bottom: 0.4rem;
 }
 article table {
@@ -136,9 +149,10 @@ article table {
   display: block;
   overflow-x: auto;
 }
-article th, article td {
+article th,
+article td {
   border: none;
-  padding: .7rem .9rem;
+  padding: 0.7rem 0.9rem;
   text-align: left;
 }
 article th {
@@ -153,10 +167,11 @@ article tr {
 article tr:last-child {
   border-bottom: none;
 }
-code, pre {
+code,
+pre {
   background: var(--surface-alt);
   color: #ffb86c;
-  padding: .22rem .45rem;
+  padding: 0.22rem 0.45rem;
   border-radius: 5px;
   font-family: 'Fira Mono', 'Consolas', monospace;
   font-size: 0.97em;
@@ -175,7 +190,7 @@ footer {
   padding: 2.2rem 1rem 1.2rem 1rem;
   text-align: center;
   color: var(--text-muted);
-  font-size: .93rem;
+  font-size: 0.93rem;
   background: none;
 }
 footer a {
@@ -183,7 +198,8 @@ footer a {
   text-decoration: underline;
   font-weight: 500;
 }
-footer a:hover, footer a:focus-visible {
+footer a:hover,
+footer a:focus-visible {
   color: var(--accent-hover);
 }
 :focus-visible {
@@ -191,7 +207,7 @@ footer a:hover, footer a:focus-visible {
   outline-offset: 2px;
 }
 
-/* Startseiten-Intro zentrieren und hervorheben */
+/* ───────── Home Hero ───────── */
 .home-hero {
   display: flex;
   flex-direction: column;
@@ -217,13 +233,13 @@ footer a:hover, footer a:focus-visible {
 }
 .home-hero .cta {
   font-size: 1.15rem;
-  padding: .8rem 2.2rem;
+  padding: 0.8rem 2.2rem;
   margin-bottom: 0.5rem;
   margin-top: 0.2rem;
   box-shadow: 0 4px 24px #ff910033, var(--shadow);
 }
 
-/* Feature Cards */
+/* ───────── Feature Cards ───────── */
 .features-list {
   display: flex;
   flex-wrap: wrap;
@@ -246,7 +262,8 @@ footer a:hover, footer a:focus-visible {
   border: 1px solid #23242a;
   transition: transform 0.13s, box-shadow 0.13s;
 }
-.feature-card:hover, .feature-card:focus-within {
+.feature-card:hover,
+.feature-card:focus-within {
   transform: translateY(-4px) scale(1.025);
   box-shadow: 0 8px 32px #0005;
   border-color: var(--accent);
@@ -269,7 +286,7 @@ footer a:hover, footer a:focus-visible {
   line-height: 1.6;
 }
 
-/* Legal Page Hero */
+/* ───────── Legal Pages ───────── */
 .legal-hero {
   text-align: center;
   margin-bottom: 2.2rem;
@@ -287,8 +304,6 @@ footer a:hover, footer a:focus-visible {
   font-size: 1.08rem;
   margin-bottom: 0.2rem;
 }
-
-/* Legal Card (Imprint) */
 .legal-card {
   background: var(--surface-alt);
   border-radius: 14px;
@@ -310,6 +325,8 @@ footer a:hover, footer a:focus-visible {
   font-weight: 400;
   color: var(--text-muted);
 }
+
+/* Imprint Table */
 .legal-imprint-table {
   width: 100%;
   margin: 0 auto;
@@ -321,7 +338,7 @@ footer a:hover, footer a:focus-visible {
 }
 .legal-imprint-table th,
 .legal-imprint-table td {
-  padding: .7rem .9rem;
+  padding: 0.7rem 0.9rem;
   text-align: left;
   border: none;
 }
@@ -344,16 +361,18 @@ footer a:hover, footer a:focus-visible {
   border-bottom: none;
 }
 @media (max-width: 700px) {
-  .legal-imprint-table, .legal-imprint-table th, .legal-imprint-table td {
+  .legal-imprint-table,
+  .legal-imprint-table th,
+  .legal-imprint-table td {
     font-size: 0.97rem;
-    padding: .5rem .5rem;
+    padding: 0.5rem 0.5rem;
   }
   .legal-imprint-table th {
     width: 110px;
   }
 }
 
-/* Legal Tables (Data, Changelog) */
+/* Data‑ & Changelog Tables */
 .legal-table-scroll {
   overflow-x: auto;
   margin: 1.2rem 0 2.2rem 0;
@@ -373,16 +392,15 @@ footer a:hover, footer a:focus-visible {
   table-layout: auto;
   word-break: break-word;
   border: none;
-  border-top: none;
 }
-/* Remove top border from first row in all legal tables */
 .legal-table tr:first-child th,
 .legal-table tr:first-child td {
   border-top: none !important;
 }
-.legal-table th, .legal-table td {
+.legal-table th,
+.legal-table td {
   border: none;
-  padding: .7rem .9rem;
+  padding: 0.7rem 0.9rem;
   text-align: left;
   vertical-align: middle;
 }
@@ -396,24 +414,16 @@ footer a:hover, footer a:focus-visible {
   width: 220px;
   max-width: 240px;
   white-space: normal;
-  vertical-align: middle;
-  /* Remove top border artifact */
-  border-top: none;
 }
 .legal-table td {
   color: var(--text);
   background: transparent;
   border-bottom: 1px solid #23242a;
   word-break: break-word;
-  vertical-align: middle;
-  /* Remove top border artifact */
-  border-top: none;
 }
 .legal-card .legal-table {
   margin: 0;
-  min-width: 0;
   width: 100%;
-  max-width: 100%;
   border-radius: 10px;
   box-shadow: none;
 }
@@ -436,7 +446,7 @@ footer a:hover, footer a:focus-visible {
   .legal-card .legal-table th,
   .legal-card .legal-table td {
     font-size: 0.97rem;
-    padding: .5rem .5rem;
+    padding: 0.5rem 0.5rem;
   }
   .legal-card .legal-table th {
     min-width: 90px;
@@ -445,7 +455,7 @@ footer a:hover, footer a:focus-visible {
   }
 }
 
-/* Responsive Anpassungen */
+/* ───────── Responsive Anpassungen ───────── */
 @media (max-width: 900px) {
   .features-list {
     flex-direction: column;
@@ -493,6 +503,8 @@ footer a:hover, footer a:focus-visible {
     padding: 1.1rem 0.7rem 1rem 0.7rem;
   }
 }
+
+/* ───────── Scrollbar ───────── */
 ::-webkit-scrollbar {
   width: 10px;
   background: #23242a;
@@ -506,162 +518,200 @@ footer a:hover, footer a:focus-visible {
 }
 
 /* ───────── Landing Page Upgrades ───────── */
-.hero-video{
-  position:relative;
-  height:100vh;
-  overflow:hidden;
+.hero-video {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
 }
-.hero-video video{
-  position:absolute;
-  inset:0;
-  width:100%;
-  height:100%;
-  object-fit:cover;
-  filter:brightness(.4);
+.hero-video video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.4);
 }
-.hero-overlay{
-  position:relative;
-  z-index:1;
-  max-width:900px;
-  margin:auto;
-  height:100%;
-  padding:0 1rem;
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
-  text-align:center;
+.hero-overlay {
+  position: relative;
+  z-index: 1;
+  max-width: 900px;
+  margin: auto;
+  height: 100%;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-.hero-overlay h1{
+.hero-overlay h1 {
   margin-top: 14rem;
-  font-size:clamp(2.2rem,6vw,4rem);
-  line-height:1.15;
-  margin-bottom:1rem;
+  font-size: clamp(2.2rem, 6vw, 4rem);
+  line-height: 1.15;
+  margin-bottom: 1rem;
 }
-.hero-overlay .accent{
-  color:var(--accent);
+.hero-overlay .accent {
+  color: var(--accent);
 }
-.feature-grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-  gap:2rem;
-  margin:4rem auto;
-  max-width:1200px;
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin: 4rem auto;
+  max-width: 1200px;
 }
-.feature-grid .feature-card{
-  background:var(--surface);
-  padding:2rem;
-  border-radius:var(--radius);
-  box-shadow:var(--shadow);
-  transition:transform .2s,box-shadow .2s;
+.feature-grid .feature-card {
+  background: var(--surface);
+  padding: 2rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  transition: transform 0.2s, box-shadow 0.2s;
 }
-.feature-grid .feature-card:hover{
-  transform:translateY(-6px);
-  box-shadow:0 6px 24px #0006;
+.feature-grid .feature-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 24px #0006;
 }
-.feature-icon{
-  font-size:2.4rem;
-  margin-bottom:.6rem;
-  display:block;
+.feature-icon {
+  font-size: 2.4rem;
+  margin-bottom: 0.6rem;
+  display: block;
 }
-.screenshot{
-  display:flex;
-  flex-wrap:wrap;
-  gap:2rem;
-  align-items:center;
-  margin:5rem auto;
-  max-width:1200px;
+.screenshot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  margin: 5rem auto;
+  max-width: 1200px;
 }
-.screenshot img{
-  flex:1 1 480px;
-  max-width:640px;
-  border-radius:var(--radius);
-  box-shadow:var(--shadow);
+.screenshot img {
+  flex: 1 1 480px;
+  max-width: 640px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
 }
-.screenshot .text{
-  flex:1 1 320px;
+.screenshot .text {
+  flex: 1 1 320px;
 }
-.screenshot h2{
-  font-size:clamp(1.6rem,4vw,2.5rem);
-  margin-bottom:.6rem;
+.screenshot h2 {
+  font-size: clamp(1.6rem, 4vw, 2.5rem);
+  margin-bottom: 0.6rem;
 }
-.cta.ghost{
-  background:transparent;
-  color:var(--accent);
-  box-shadow:none;
-  border:2px solid var(--accent);
-}
-@media (max-width:700px){
-  .hero-video{
-    height:75vh;
+@media (max-width: 700px) {
+  .hero-video {
+    height: 75vh;
   }
-  .screenshot{
-    flex-direction:column;
+  .screenshot {
+    flex-direction: column;
   }
 }
 
-/* ───── Hero-Logo ───── */
-.hero-logo{
-  position:absolute;
-  top:8rem;
-  left:50%;
-  transform:translateX(-50%);
-  width:92vw;
-  max-width:1080px;
-  filter:drop-shadow(0 4px 24px #0007);
-  border-radius:22px;
+/* ───────── Hero‑Logo ───────── */
+.hero-logo {
+  position: absolute;
+  top: 8rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 92vw;
+  max-width: 1080px;
+  filter: drop-shadow(0 4px 24px #0007);
+  border-radius: 22px;
 }
-@media(max-width:600px){
-  .hero-logo{
-    width:88vw;
-    top:1.2rem;
+@media (max-width: 600px) {
+  .hero-logo {
+    width: 88vw;
+    top: 1.2rem;
   }
 }
 
-/* ─── Social buttons – NEU zentriert ───────────────── */
-.nav-left{
-  display:flex;
-  align-items:center;
+/* ───────── Social Buttons ───────── */
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+.social-nav {
+  display: flex;
+  align-items: center;
 }
 
-.social-nav{
-  display:flex;
-  align-items:center;
+/* Einheitliche 44 × 44 px Buttons */
+.social-nav a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  margin-left: 1.1rem;
+  background: var(--surface-alt);
+  border-radius: var(--radius);
+  padding: 0;
+  line-height: 0;
+  transition: background 0.15s, transform 0.15s;
 }
-
-/* ▲▲▲ UMGEBAUT ▲▲▲
-   - Flexbox sorgt für exakte Zentrierung
-   - Einheitliche Button-Größe (44 × 44 px)
-   - Padding neutralisiert
-   - Hover ändert jetzt auch den Hintergrund-Kontrast
-*/
-.social-nav a{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  width:44px;
-  height:44px;
-  margin-left:1.1rem;
-  background:var(--surface-alt);
-  border-radius:var(--radius);
-  padding:0;
-  line-height:0;
-  transition:background .15s,transform .15s;
-}
-.social-nav img{
-  width:24px;
-  height:24px;
-  margin:0;                 /* überschreibt margin-right aus header img */
-  user-select:none;
-  pointer-events:none;
+.social-nav img {
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  user-select: none;
+  pointer-events: none;
 }
 .social-nav a:hover,
-.social-nav a:focus-visible{
-  transform:scale(1.12);
-  background:var(--accent-hover);
+.social-nav a:focus-visible {
+  transform: scale(1.12);
+  background: var(--accent-hover);
 }
-@media (prefers-color-scheme: dark){
-  .social-nav img{
-    filter:brightness(0) invert(1);
+@media (prefers-color-scheme: dark) {
+  .social-nav img {
+    filter: brightness(0) invert(1);
+  }
+}
+
+/* ───────── NEW: Hero Trigger Section ───────── */
+.hero-trigger {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+.hero-trigger-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.4);
+}
+.hero-trigger-overlay {
+  position: relative;
+  z-index: 1;
+  max-width: 1200px;
+  height: 100%;
+  margin: auto;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.hero-trigger-overlay .media img {
+  flex: 1 1 480px;
+  max-width: 640px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+.hero-trigger-overlay .content {
+  flex: 1 1 320px;
+}
+.hero-trigger-overlay .content h2 {
+  font-size: clamp(1.6rem, 4vw, 2.5rem);
+  margin-bottom: 0.6rem;
+}
+/* Mobile Breakpoint */
+@media (max-width: 700px) {
+  .hero-trigger-overlay {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero-trigger-overlay .media img {
+    width: 90%;
+    max-width: 480px;
   }
 }
